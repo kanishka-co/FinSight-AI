@@ -8,8 +8,8 @@ from scipy import sparse
 
 from pathlib import Path
 BASE_PATH = str(Path(__file__).resolve().parent)
-MODEL_PATH = os.path.join(BASE_PATH, "models", "finsight_churn_model.joblib")
-DATA_PATH = os.path.join(BASE_PATH, "data", "processed", "telco_churn_cleaned.csv")
+MODEL_PATH = os.path.join(BASE_PATH, "finsight_churn_model.joblib")
+DATA_PATH = os.path.join(BASE_PATH, "telco_churn_cleaned.csv")
 
 st.set_page_config(page_title="FinSight AI", page_icon="📊", layout="wide")
 
